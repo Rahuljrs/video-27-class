@@ -1,0 +1,209 @@
+/*Defult css*/
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.fixed-with{
+    width:1024px;
+    margin: auto;
+
+}
+.clearFix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+    
+.text-center{
+    text-align: center;
+}
+.text-left{
+    float: left;
+}
+.text-right{
+    float: right;
+}
+/*header*/
+.header{
+    background-color: rgb(148, 128, 240);
+}
+.menu-left img{
+    width: 150px;
+    height: auto;
+
+}
+.menu-right ul{}
+.menu-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.menu-right ul li a{
+    padding: 1px 20px;
+    text-decoration: none;
+    line-height: 55px;
+    color: #fff;
+    display: block;
+    border-right: 1px solid #fff;
+    transition: .5s;
+    font-size: 18px;
+}
+.menu-right ul li a:hover{
+    background-color: rgb(158, 29, 197);
+    color: #fff;
+}
+/* Banner Section*/
+.banner{
+    background: url(https://smartslider3.com/wp-content/uploads/2019/01/photo_slideshow.jpg) no-repeat center;
+    padding: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner-text h2 {
+    background-color: rgba(36, 36, 138, 0.4);
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #fff;
+}
+.banner-text h3{
+    background-color: rgba(49, 49, 59, 0.4);
+   
+    padding: 10px 18px;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 25px;
+    color: #fff;
+    max-width: 500px;
+    margin-top: 15px;
+}
+.about{
+    margin-top: 20px;
+
+}
+.about p{
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+/*service section*/
+
+.service{
+    margin-top: 20px;
+    
+
+}
+span {
+    background-color: rgb(60, 21, 153);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    font-size: 39px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px 0px 20px 0px;
+    line-height: 0;
+}
+
+
+
+.service-items{
+    float: left;
+    width: 31%;
+    border: 1px solid #ddd;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px 10px;
+    transition: .6s;
+    box-shadow: rgba(230, 236, 233, 0.4);
+
+}
+.service-items:hover{
+    transform: translateY(-5px);
+}
+.service-items h3{
+    padding: 10px;
+}
+
+/*blog*/
+.blog{
+    margin-top: 40px;
+    display: inline-block; 
+}
+.blog-left{
+    width: 70%;
+    float: left;
+}
+.blog-item{
+   margin-bottom: 20px;
+}
+
+
+.blog-item img {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    
+}
+.blog-item p{}
+.blog-right{
+    float: right;
+    width: 25%;
+}
+.notification{}
+.notification h2 {
+    font-size: 26px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 16px;
+}
+.notification ul li{
+    list-style-type: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    background:#fafafa;
+}
+/*footer*/
+.footer{
+    background-color: rgb(41, 26, 43);
+    color:#fff;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+.footer-left{
+    float: left;
+    width: 60%;
+}
+.footer-right{
+    float: right;
+    width: 40%;
+}
+.social-menu {
+    text-align: right;
+}
+.social-menu li{
+    display: inline-block;
+    
+
+}
+.social-menu li a{
+    list-style-type: none;
+    padding: 10px 10px;
+    font-size: 30px;
+    color: #fff;
+    transition: .6s;
+
+}
+.social-menu li a:hover{
+    color: skyblue;
+}
